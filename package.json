@@ -1,0 +1,27 @@
+{
+  "name": "k8s-interactive",
+  "version": "0.1.0",
+  "description": "a MCP server that can run k8s command and given the kubeconfig path. And can provide interpretation of the command",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "k8s-interactive": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "dependencies": {
+    "@kubernetes/client-node": "^0.22.3",
+    "@modelcontextprotocol/sdk": "0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
