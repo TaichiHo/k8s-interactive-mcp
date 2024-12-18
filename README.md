@@ -1,22 +1,23 @@
-# k8s-interactive MCP Server
+# k8s-interactive-mcp
 
-a MCP server that can run k8s command and given the kubeconfig path. And can provide interpretation of the command output.
+A MCP server that can run Kubernetes commands with a given kubeconfig path and provide interpretation of the commands.
+
+## Demo
+
+Watch the demo video:
+
+[![k8s-interactive demo](https://img.shields.io/badge/Watch-Demo%20Video-blue)](https://drive.google.com/file/d/1DJKYrWILKkAq6UyVraMFOd_1t68xAvug/view?usp=drive_link)
 
 ## Features
 
-### Resources
-NA
+- Run kubectl commands through MCP tools
+- Automatic kubectl installation check
+- Support for custom kubeconfig paths
+- Error handling and helpful messages
 
-### Tools
-- `run_kubectl_command` - Run kubectl command and return the output
-  - Takes kubectl command and kubeconfig path as required parameters
+## Usage
 
-### Prompts
-NA
-
-## Development
-
-Install dependencies:
+1. Install dependencies:
 ```bash
 npm install
 ```
