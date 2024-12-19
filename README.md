@@ -6,7 +6,7 @@ A MCP server that can run Kubernetes commands with a given kubeconfig path and p
 
 Watch the demo video:
 
-[![k8s-interactive demo](https://img.shields.io/badge/Watch-Demo%20Video-blue)](https://drive.google.com/file/d/1DJKYrWILKkAq6UyVraMFOd_1t68xAvug/view?usp=drive_link)
+<video src='https://drive.google.com/file/d/1DJKYrWILKkAq6UyVraMFOd_1t68xAvug/view?usp=drive_link' width=180></video>
 
 ## Features
 
