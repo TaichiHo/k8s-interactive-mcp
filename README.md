@@ -2,15 +2,14 @@
 
 A MCP server that can run Kubernetes commands with a given kubeconfig path and provide interpretation of the commands.
 
-## Demo
+## Result
 
-Watch the demo video:
-
-<video src='https://drive.google.com/file/d/1DJKYrWILKkAq6UyVraMFOd_1t68xAvug/view?usp=drive_link' width=180></video>
+<img src="./demo.png" alt="k8s-interactive demo" />
 
 ## Features
 
 - Run kubectl commands through MCP tools
+- Flexible command line piping
 - Automatic kubectl installation check
 - Support for custom kubeconfig paths
 - Error handling and helpful messages
