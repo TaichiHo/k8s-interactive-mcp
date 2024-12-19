@@ -4,15 +4,14 @@ A MCP server that can run Kubernetes commands with a given kubeconfig path and p
 
 <a href="https://glama.ai/mcp/servers/gwvs0s78be"><img width="380" height="200" src="https://glama.ai/mcp/servers/gwvs0s78be/badge" alt="k8s-interactive-mcp MCP server" /></a>
 
-## Demo
+## Result
 
-Watch the demo video:
-
-[![k8s-interactive demo](https://img.shields.io/badge/Watch-Demo%20Video-blue)](https://drive.google.com/file/d/1DJKYrWILKkAq6UyVraMFOd_1t68xAvug/view?usp=drive_link)
+<img src="./demo.png" alt="k8s-interactive demo" />
 
 ## Features
 
 - Run kubectl commands through MCP tools
+- Flexible command line piping
 - Automatic kubectl installation check
 - Support for custom kubeconfig paths
 - Error handling and helpful messages
