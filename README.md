@@ -2,6 +2,8 @@
 
 A MCP server that can run Kubernetes commands with a given kubeconfig path and provide interpretation of the commands.
 
+<a href="https://glama.ai/mcp/servers/gwvs0s78be"><img width="380" height="200" src="https://glama.ai/mcp/servers/gwvs0s78be/badge" alt="k8s-interactive-mcp MCP server" /></a>
+
 ## Result
 
 <img src="./demo.png" alt="k8s-interactive demo" />
